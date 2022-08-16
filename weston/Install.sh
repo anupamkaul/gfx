@@ -1,7 +1,7 @@
 #!/bin/bash
 export WLROOT=$HOME/Wayland
 export WLD=$WLROOT/install   # change this to another location if you prefer
-export LD_LIBRARY_PATH=$WLD/lib
+export LD_LIBRARY_PATH=$WLD/lib:$WLD/lib/x86_64-linux-gnu/
 export PKG_CONFIG_PATH=$WLD/lib/x86_64-linux-gnu/pkgconfig/:$WLD/share/x86_64-linux-gnu/pkgconfig/:$WLD/share/pkgconfig:$WLD/lib/pkgconfig
 export PATH=$WLD/bin:$PATH
 
