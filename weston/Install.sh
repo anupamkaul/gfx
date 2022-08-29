@@ -4,6 +4,7 @@ export WLD=$WLROOT/install   # change this to another location if you prefer
 export LD_LIBRARY_PATH=$WLD/lib:$WLD/lib/x86_64-linux-gnu/
 export PKG_CONFIG_PATH=$WLD/lib/x86_64-linux-gnu/pkgconfig/:$WLD/share/x86_64-linux-gnu/pkgconfig/:$WLD/share/pkgconfig:$WLD/lib/pkgconfig
 export PATH=$WLD/bin:$PATH
+export XDG_RUNTIME_DIR=$WLD
 
 # execute this as 'source ~/.Install.sh'
 # but note that this currently overrides LD_LIBRARY_PATH for robotics etc.
