@@ -1,0 +1,187 @@
+anupkaul@147dda4c0851 weston % ./Run.sh 
+-e Running weston config..
+
+fatal: destination path 'wayland' already exists and is not an empty directory.
+error: remote upstream already exists.
+origin	https://github.com/anupamkaul/wayland.git (fetch)
+origin	https://github.com/anupamkaul/wayland.git (push)
+upstream	https://github.com/wayland-project/wayland.git (fetch)
+upstream	https://github.com/wayland-project/wayland.git (push)
+
+fatal: destination path 'wayland-protocols' already exists and is not an empty directory.
+error: remote upstream already exists.
+origin	https://github.com/anupamkaul/wayland-protocols.git (fetch)
+origin	https://github.com/anupamkaul/wayland-protocols.git (push)
+upstream	https://github.com/wayland-project/wayland-protocols.git (fetch)
+upstream	https://github.com/wayland-project/wayland-protocols.git (push)
+
+fatal: destination path 'libinput' already exists and is not an empty directory.
+error: remote upstream already exists.
+origin	https://github.com/anupamkaul/libinput.git (fetch)
+origin	https://github.com/anupamkaul/libinput.git (push)
+upstream	https://github.com/wayland-project/libinput.git (fetch)
+upstream	https://github.com/wayland-project/libinput.git (push)
+
+fatal: destination path 'weston' already exists and is not an empty directory.
+error: remote upstream already exists.
+origin	https://github.com/anupamkaul/weston.git (fetch)
+origin	https://github.com/anupamkaul/weston.git (push)
+upstream	https://github.com/wayland-project/weston.git (fetch)
+upstream	https://github.com/wayland-project/weston.git (push)
+/Users/anupkaul/Wayland/install/lib/x86_64-linux-gnu/pkgconfig/:/Users/anupkaul/Wayland/install/share/x86_64-linux-gnu/pkgconfig/:/Users/anupkaul/Wayland/install/share/pkgconfig:/Users/anupkaul/Wayland/install/lib/pkgconfig
+-e 
+building wayland in /Users/anupkaul/Wayland/install..
+/Users/anupkaul/Wayland/install
+The Meson build system
+Version: 1.3.1
+Source dir: /Users/anupkaul/akaul_git/gfx/weston/wayland
+Build dir: /Users/anupkaul/akaul_git/gfx/weston/wayland/build
+Build type: native build
+Project name: wayland
+Project version: 1.20.92
+C compiler for the host machine: cc (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.1.0.2.5)")
+C linker for the host machine: cc ld64 1022.1
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Has header "sys/prctl.h" : NO 
+Has header "sys/procctl.h" : NO 
+Has header "sys/ucred.h" : YES 
+Checking for function "accept4" : NO 
+Checking for function "mkostemp" : YES 
+Checking for function "posix_fallocate" : NO 
+Checking for function "prctl" : NO 
+Checking for function "memfd_create" : NO 
+Checking for function "mremap" : NO 
+Checking for function "strndup" : YES 
+Checking whether type "struct xucred" has member "cr_pid" : NO 
+Did not find pkg-config by name 'pkg-config'
+Found pkg-config: NO
+Found CMake: /usr/local/bin/cmake (3.28.1)
+Run-time dependency libffi found: NO (tried framework and cmake)
+
+meson.build:80:11: ERROR: Dependency lookup for libffi with method 'pkgconfig' failed: Pkg-config for machine host machine not found. Giving up.
+
+A full log can be found at /Users/anupkaul/akaul_git/gfx/weston/wayland/build/meson-logs/meson-log.txt
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+ninja: Entering directory `build/'
+ninja: error: loading 'build.ninja': No such file or directory
+-e 
+building wayland-protocols in /Users/anupkaul/Wayland/install..
+Running Meson
+/Users/anupkaul/Wayland/install
+The Meson build system
+Version: 1.3.1
+Source dir: /Users/anupkaul/akaul_git/gfx/weston/wayland-protocols
+Build dir: /Users/anupkaul/akaul_git/gfx/weston/wayland-protocols/build
+Build type: native build
+Project name: wayland-protocols
+Project version: 1.26
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Configuring wayland-protocols.pc using configuration
+Configuring wayland-protocols-uninstalled.pc using configuration
+Program scan.sh found: YES (/Users/anupkaul/akaul_git/gfx/weston/wayland-protocols/tests/scan.sh)
+Did not find pkg-config by name 'pkg-config'
+Found pkg-config: NO
+Found CMake: /usr/local/bin/cmake (3.28.1)
+Build-time dependency wayland-scanner found: NO (tried cmake)
+
+tests/meson.build:2:14: ERROR: Dependency lookup for wayland-scanner with method 'pkgconfig' failed: Pkg-config for machine build machine not found. Giving up.
+
+A full log can be found at /Users/anupkaul/akaul_git/gfx/weston/wayland-protocols/build/meson-logs/meson-log.txt
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+ninja: Entering directory `build/'
+ninja: error: loading 'build.ninja': No such file or directory
+-e 
+building libinput in /Users/anupkaul/Wayland/install..
+/Users/anupkaul/Wayland/install
+The Meson build system
+Version: 1.3.1
+Source dir: /Users/anupkaul/akaul_git/gfx/weston/libinput
+Build dir: /Users/anupkaul/akaul_git/gfx/weston/libinput/build
+Build type: native build
+Project name: libinput
+Project version: 1.17.0
+C compiler for the host machine: cc (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.1.0.2.5)")
+C linker for the host machine: cc ld64 1022.1
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wlogical-op: NO 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Wuninitialized: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Compiler for C supports arguments -Wincompatible-pointer-types: YES 
+Compiler for C supports arguments -Wformat=2: YES 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Fetching value of define "static_assert" : (undefined) 
+Header "dirent.h" has symbol "versionsort" : NO 
+Header "errno.h" has symbol "program_invocation_short_name" : NO 
+Header "stdlib.h" has symbol "getprogname" : YES 
+Has header "xlocale.h" : YES 
+Checking if "locale.h" : links: NO 
+Header "sys/ptrace.h" has symbol "PTRACE_ATTACH" : NO 
+Did not find pkg-config by name 'pkg-config'
+Found pkg-config: NO
+Found CMake: /usr/local/bin/cmake (3.28.1)
+Run-time dependency libudev found: NO (tried framework and cmake)
+
+meson.build:142:11: ERROR: Dependency lookup for libudev with method 'pkgconfig' failed: Pkg-config for machine host machine not found. Giving up.
+
+A full log can be found at /Users/anupkaul/akaul_git/gfx/weston/libinput/build/meson-logs/meson-log.txt
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+ninja: Entering directory `build/'
+ninja: error: loading 'build.ninja': No such file or directory
+-e 
+building weston in /Users/anupkaul/Wayland/install
+/Users/anupkaul/Wayland/install
+The Meson build system
+Version: 1.3.1
+Source dir: /Users/anupkaul/akaul_git/gfx/weston/weston
+Build dir: /Users/anupkaul/akaul_git/gfx/weston/weston/build
+Build type: native build
+Project name: weston
+Project version: 10.0.90
+C compiler for the host machine: cc (clang 15.0.0 "Apple clang version 15.0.0 (clang-1500.1.0.2.5)")
+C linker for the host machine: cc ld64 1022.1
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Found git repository at /Users/anupkaul/akaul_git/gfx/weston/weston
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -Wno-shift-negative-value: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-pedantic: YES 
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -fvisibility=hidden: YES 
+Header "sys/sysmacros.h" has symbol "major" : NO 
+Header "sys/mkdev.h" has symbol "major" : NO 
+Checking for function "mkostemp" : YES 
+Checking for function "strchrnul" : NO 
+Checking for function "initgroups" : YES 
+Checking for function "posix_fallocate" : NO 
+Checking for function "memfd_create" : NO 
+Has header "linux/sync_file.h" : NO 
+Message: The default backend is drm
+Did not find pkg-config by name 'pkg-config'
+Found pkg-config: NO
+Found CMake: /usr/local/bin/cmake (3.28.1)
+Run-time dependency xkbcommon found: NO (tried framework and cmake)
+
+meson.build:139:16: ERROR: Dependency lookup for xkbcommon with method 'pkgconfig' failed: Pkg-config for machine host machine not found. Giving up.
+
+A full log can be found at /Users/anupkaul/akaul_git/gfx/weston/weston/build/meson-logs/meson-log.txt
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+ninja: Entering directory `build/'
+ninja: error: loading 'build.ninja': No such file or directory
